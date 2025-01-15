@@ -1,0 +1,73 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #111;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ccc !important;
+}
+
+/* Language switcher */
+.language-switcher {
+    color: #fff;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.language-switcher img {
+    max-width: 20px;
+    margin-right: 5px;
+}
+
+/* Banner Section */
+.banner-section {
+    background: linear-gradient(135deg, #1a1a42, #09092f);
+    color: white;
+    padding: 100px 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.text-content h1 {
+    font-size: 3rem;
+    line-height: 1.4;
+}
+
+.text-content h1 span {
+    color: #6b6bff;
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.text-content strong {
+    color: white;
+}
+
+.banner-image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
+}
