@@ -40,7 +40,6 @@ body {
 .banner-section {
     position: relative;
     background-size: cover;
-    background-image: url('https://via.placeholder.com/1920x800');
     height: 80vh; /* Full-screen height */
     display: flex;
     align-items: center;
@@ -49,8 +48,7 @@ body {
     overflow: hidden;
     box-shadow: inset 0 -200px 150px rgba(0, 0, 0, 0.7); /* Inner shadow effect */
   }
-  
-  /* Optional Gradient Overlay for Enhanced Effect */
+
   .banner-section::before {
     content: '';
     position: absolute;
@@ -212,7 +210,155 @@ body {
   iframe {
     border: none;
     width: 100%;
-    height: 400px;
+    height: 475px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0.3;
   }
+
+/**********************
+***About-us************
+************************/
+.about-section {
+  position: relative; /* Ensures the ::before pseudo-element is positioned correctly */
+  height: 80vh;
+ 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  background-size: cover !important;
+  padding-top: 200px;
+  opacity: 0.3;
+  color: #fff;
+  z-index: 1; /* Place the section content above the gradient */
+}
+
+.about-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 10%,
+      rgba(0, 0, 0, 1.7) 75%
+    ); 
+  z-index: 0; /* Gradient remains below the text */
+}
+
+.about-section h1, 
+.about-section p {
+  position: relative; /* Ensures the text stays above the ::before pseudo-element */
+  z-index: 2; /* Text is above the gradient */
+ /* Apply shadow to the text */
+}
+
+.-about-services {
+  padding: 60px 20px;
+}
+.aboutservices h2 {
+  text-align: center;
+  color: #fcfcfc;
+  margin-bottom: 40px;
+}
+.about-service-card {
+  background-color: #262626;
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  color: #dcdcdc;
+  transition: transform 0.3s;
+}
+.about-service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgba(255, 255, 255, 0.1);
+}
+.about-service-card h5 {
+  color: #fff;
+}
+.mission-section{
+  color: #dcdcdc;
+  margin-top: 80px;
+}
+.mission-img {
+  position: relative;
+}
+
+.mission-img img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+ 
+  position: relative;
+  z-index: 1;
+}
+
+.mission-img::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 5.7));
+  z-index: 2;
+  
+  border-radius: 10px;
+}
+
+/* Make sure text inside the same container (e.g., .mission-text) is above the gradient */
+.mission-text {
+  position: relative;
+  z-index: 3; /* Higher than the ::before element */
+  color: #ffffff; /* Text color to ensure visibility */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+  /***footer***/
+
+  footer {
+    background-color: #000 ;/* Dark background for the footer */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+
+  }
+  
+  footer .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  footer .social-icons li a {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-icons li a:hover {
+    color: #007bff; /* Change to your desired hover color */
+  }
+  
+  footer .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  footer .divider {
+    border-top: 1px solid rgba(250, 250, 250, 0.2);
+    margin-top: 20px;
+  }
+  
