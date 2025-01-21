@@ -416,7 +416,7 @@ p{
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 15px;
-  color: #fff;
+  color:rgb(198, 198, 198);
   
 }
 
@@ -426,15 +426,20 @@ p{
   color: #555;
 }
 
+
 .field-section ul {
   list-style-type: none;
   padding: 0;
+}
+.field-section h1 {
+ color: rgb(198, 198, 198);
 }
 
 .field-section ul li {
   margin-bottom: 10px;
   position: relative;
   padding-left: 20px;
+  color: rgb(113, 113, 113) ;
 }
 
 .field-section ul li::before {
@@ -448,8 +453,8 @@ p{
 }
 
 .field-section img {
-  max-height: 574px;
-  width: 587px;
+  max-height: 400px;
+  width: 570px;
   border-radius: 15px;
   transition: transform 0.3s ease;
 }
