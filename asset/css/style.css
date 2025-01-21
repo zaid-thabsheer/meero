@@ -294,8 +294,9 @@ p{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/asset/images/banner-image.png');
+  background-image: url('/asset/images/about-banner.jpg');
   background-size: cover;
+  
   background-position: center;
   filter: brightness(0.3);
 }
