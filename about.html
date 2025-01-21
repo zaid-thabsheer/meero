@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="asset/css/style.css">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+     <!-- AOS Animation Library -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
   </head>
   <body>
 <!-- Navigation Bar -->
@@ -34,7 +37,7 @@
               <a class="nav-link" href="#">Gallery</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Field of Expertise</a>
+              <a class="nav-link" href="field.html" target="_self" >Field of Expertise</a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="#">Our Services</a>
@@ -66,19 +69,19 @@
               <div class="ceo-title">The CEO</div>
               <div class="ceo-name">Basil Al Dossary</div>
           </div>
-          <div class="col-md-8 mt-4 mt-md-0 ">
+          <div class="col-md-8 mt-4 mt-md-0 " data-aos="fade-right">
               <h2 class="display-4 mb-4">Trusted, 12+ Years Experienced & Specialists</h2>
-              <p class="lead">
+              <p class="lead" data-aos="fade-right">
                   Our founder <span class="text-highlight">Basil Al Dossary</span> is an active member of the tech community. His experience in business development, product management, and various aspects of digital product development has been recognized in the Kingdom and abroad.
               </p>
-              <p class="lead">
+              <p class="lead" data-aos="fade-right">
                   Basil is building a thriving team of developers, agile project managers, data scientists, and support staff that will lead our customers through digitalization programs to greater business success. Although Takamul started from small beginnings in Al-Khobar City in 2012 we have always been driven by the ambition to become one of the top tech firms in the Kingdom.
               </p>
           </div>
-          <p class="lead">
+          <p class="lead" data-aos="fade-right">
             We began building next-generation mobile and web apps for small and mid-size businesses. Our areas of expertise have expanded over time - and continue to evolve as technology advances.
             Today, our experienced team has deep knowledge in a wide range of industry 4.0, analytics, and digital solutions which we bring to bear to solve complex business challenges for our customers.        </p>
-            <p class="lead">
+            <p class="lead" data-aos="fade-right">
               We began building next-generation mobile and web apps for small and mid-size businesses. Our areas of expertise have expanded over time - and continue to evolve as technology advances.
               Today, our experienced team has deep knowledge in a wide range of industry 4.0, analytics, and digital solutions which we bring to bear to solve complex business challenges for our customers.        </p>
               
@@ -98,38 +101,38 @@
   <!-- Content -->
   <div class="content-wrapper">
       <div class="container">
-          <h2 class="vision-title">Our Vision</h2>
-          <p class="vision-text">
+          <h2 class="vision-title" data-aos="fade-right">Our Vision</h2>
+          <p class="vision-text" data-aos="fade-right">
               Takamul will be a key player in building the digital economy, driving forward digital transformation and helping to enable the #SaudiVision_2030
           </p>
 
           <h2 class="mission-title">Our Mission</h2>
           <div class="mission-cards mission-text">
-              <div class="mission-card ">
+              <div class="mission-card " data-aos="fade-up">
                 <h5 class="mb-4">Recruitment Solutions</h5>
                 <p>We provide tailored hiring solutions to match your business needs with the right talent.</p>
               </div>
 
-              <div class="mission-card">
+              <div class="mission-card" data-aos="fade-up">
                 <h5 class="mb-4">Visa Processing</h5>
                 <p>Simplified and efficient visa processing for international hires.</p>
               </div>
 
-              <div class="mission-card">
+              <div class="mission-card" data-aos="fade-up">
                 <h5 class="mb-4">Training & Development</h5>
                 <p>Enhance employee skills with customized training programs.</p>
               </div>
-              <div class="mission-card">
+              <div class="mission-card" data-aos="fade-up">
                 <h5 class="mb-4">Industry Expertise</h5>
                <p>Specialized recruitment for industries like healthcare, construction, and more.</p>
             </div>
 
-            <div class="mission-card">
+            <div class="mission-card" data-aos="fade-up">
               <h5 class="mb-4">Compliance Support</h5>
               <p>Ensure your business stays compliant with global employment regulations.</p>
             </div>
 
-            <div class="mission-card">
+            <div class="mission-card" data-aos="fade-up">
               <h5 class="mb-4">Workforce Management</h5>
               <p>Streamline your workforce operations with expert HR strategies.</p>
             </div>
@@ -223,7 +226,7 @@
 <section class="container contact-section">
     <div class="row g-4">
       <!-- Contact Form -->
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="fade-up">
         <div class="contact-card">
           <h3>Contact Us</h3>
           <form>
@@ -245,7 +248,7 @@
       </div>
 
       <!-- Map -->
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="fade-up">
         <iframe 
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094283!2d144.955651815317!3d-37.817313979751555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577eb7c3e6d7ed7!2sVictoria%20State%20Library%20of%20Australia!5e0!3m2!1sen!2sau!4v1615947206532!5m2!1sen!2sau" 
           allowfullscreen="" 
@@ -274,7 +277,14 @@
   </div>
 </footer>
 
-
+<!-- AOS Animation Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1200,
+        once: true
+    });
+</script>
 <!-- Latest Bootstrap JS -->
 <script src="asset/bootstrap/js/bootstrap.min.js" ></script>
 <script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>

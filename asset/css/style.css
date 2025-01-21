@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000;
+    box-sizing: border-box;
 }
 p{
   color: rgb(198, 198, 198) !important;
@@ -406,6 +407,58 @@ p{
   color: #ffffff; /* Text color to ensure visibility */
   padding: 20px; /* Adjust padding as needed */
 }
+
+/**************************************************
+****************feild******************************
+**************************************************/
+
+.field-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #fff;
+  
+}
+
+.field-description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.field-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.field-section ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.field-section ul li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #28a745;
+}
+
+.field-section img {
+  max-height: 574px;
+  width: 587px;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.field-section img:hover {
+  transform: scale(1.05);
+}
+
+
 
   /***********************************************
   *********************footer*********************

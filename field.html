@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meero - Field of Expertise</title>
+    
+    <!-- Latest Bootstrap CSS -->
+    <link href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="asset/css/style.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg ">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="asset/images/logo.png" alt="Meero Logo" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link active" href="field.html">Field of Expertise</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Banner -->
+<section class="hero-banner   py-5">
+    <div class="container">
+        <h1 class="hero-title text-white">Field of Expertise</h1>
+        <p class="hero-text">
+            Takamul was founded in October 2012 with the vision of enabling organizations of all kinds to grasp the tremendous business opportunities presented by the digital age.
+        </p>
+    </div>
+</section>
+
+<!-- Field of Expertise Section -->
+<section class="field-section py-5">
+    <div class="container">
+        <h1 class="text-center mb-5" data-aos="fade-up">Field of Expertise</h1>
+
+        <!-- Oil & Gas -->
+        <div class="row align-items-center mb-5" data-aos="fade-right">
+            <div class="col-md-6 field-card" >
+                <img src="asset/images/oil.jpg" alt="Oil & Gas" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h3 class="field-title">Oil & Gas</h3>
+                <p>Providing cutting-edge solutions in exploration, drilling, production, and refining. With our expertise in oilfield services, real-time monitoring, and automation, we help maximize efficiency and minimize downtime.</p>
+                <ul>
+                    <li>Exploration and production technologies</li>
+                    <li>Refining and processing efficiency</li>
+                    <li>Real-time drilling operations</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Construction -->
+        <div class="row align-items-center mb-5" data-aos="fade-left">
+            <div class="col-md-6 order-md-2">
+                <img src="asset/images/construction.jpg" alt="Construction" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6 order-md-1">
+                <h3 class="field-title">Construction</h3>
+                <p>Delivering end-to-end solutions for infrastructure projects, including planning, project management, and advanced construction technologies. Our focus is on sustainability and efficiency.</p>
+                <ul>
+                    <li>Smart building technologies</li>
+                    <li>Project planning and execution</li>
+                    <li>Sustainable construction materials</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Manufacturing -->
+        <div class="row align-items-center mb-5" data-aos="fade-right">
+            <div class="col-md-6">
+                <img src="asset/images/manufacture.jpg" alt="Manufacturing" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h3 class="field-title">Manufacturing</h3>
+                <p>Transforming the manufacturing sector with automation, IoT, and advanced analytics. We provide tailored solutions for improving operational efficiency and reducing costs.</p>
+                <ul>
+                    <li>Factory automation systems</li>
+                    <li>Production optimization</li>
+                    <li>Smart supply chain management</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container contact-section">
+    <div class="row g-4">
+      <!-- Contact Form -->
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="contact-card">
+          <h3>Contact Us</h3>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Map -->
+      <div class="col-md-6" data-aos="fade-up">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094283!2d144.955651815317!3d-37.817313979751555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577eb7c3e6d7ed7!2sVictoria%20State%20Library%20of%20Australia!5e0!3m2!1sen!2sau!4v1615947206532!5m2!1sen!2sau" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class=" text-white py-4">
+    <div class="container text-center">
+        <ul class="social-icons list-inline mb-3">
+            <li class="list-inline-item"><a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <p>Copyright © 2024 | Meero Overseas Hr Consultancy</p>
+    </div>
+</footer>
+
+<!-- AOS Animation Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1200,
+        once: true
+    });
+</script>
+
+<!-- Bootstrap JS -->
+<script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
