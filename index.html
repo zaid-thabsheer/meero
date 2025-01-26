@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="asset/css/style.css">
     <!--font-awesome css-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+      <!-- AOS Animation Library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
 
@@ -39,7 +41,7 @@
               <a class="nav-link" href="field.html" target="_self">Field of Expertise</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Our Services</a>
+            <a class="nav-link" href="service.html" target="_self">Our services</a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -50,12 +52,12 @@
 </nav>
 <!-- Banner Section -->
 <section class="banner-section" >
-    <div class="container text-content">
+    <div class="container text-content" data-aos="fade-right">
 
                 <h1>Every business can benefit from <br><span>digital innovation</span></br></h1>
                 <p>
                     Takamul is an emerging digital-technology powerhouse in the kingdom of Saudi Arabia. 
-                    We deliver digital transformation <strong>services for government, enterprises, and industry.</strong> 
+                    We deliver digital transformation <strong>index-services for government, enterprises, and industry.</strong> 
                     For us, technology is always driven by business needs. <br><br>
                     This way, <strong>we focus on the result that we deliver the most value.</strong>
                 </p>
@@ -63,14 +65,14 @@
 </section>
 <!-- value Section -->
 <section class="container values-section">
-    <h2 class="values-header">Our Values</h2>
-    <p class="text-center">
+    <h2 class="values-header " data-aos="fade-right">OUR VALUES</h2>
+    <p class="text-center" data-aos="fade-right">
       Takamul Technology was founded in October 2012 with the vision of helping organizations of all kinds grasp <br>
       the tremendous business opportunities presented by the digital age.
     </p>
     <div class="row text-center mt-4">
       <!-- Agile -->
-      <div class="col-md-6 col-sm-6">
+      <div class="col-md-6 col-sm-6" data-aos="fade-right">
         <div class="value-card">
           <i class="bi bi-lightning-fill"></i>
           <h5 class="value-title">Agile</h5>
@@ -78,7 +80,7 @@
         </div>
       </div>
       <!-- Expert -->
-      <div class="col-md-6 col-sm-6">
+      <div class="col-md-6 col-sm-6" data-aos="fade-left">
         <div class="value-card">
           <i class="bi bi-person-check-fill"></i>
           <h5 class="value-title">Expert</h5>
@@ -86,7 +88,7 @@
         </div>
       </div>
       <!-- Innovation -->
-      <div class="col-md-6 col-sm-6">
+      <div class="col-md-6 col-sm-6" data-aos="fade-right">
         <div class="value-card">
           <i class="bi bi-lightbulb-fill"></i>
           <h5 class="value-title">Innovation</h5>
@@ -94,7 +96,7 @@
         </div>
       </div>
       <!-- Trusted -->
-      <div class="col-md-6 col-sm-6">
+      <div class="col-md-6 col-sm-6" data-aos="fade-left">
         <div class="value-card">
           <i class="bi bi-shield-check"></i>
           <h5 class="value-title">Trusted</h5>
@@ -104,31 +106,31 @@
     </div>
 </section>
 
-<!-- Services -->
+<!-- index-services -->
 
-<section class="container services-section">
+<section class="container index-services-section">
     <div class="d-flex justify-content-between align-items-center mb-4">
-      <h2 class="services-header mb-0">Our Services</h2>
+      <h2 class="index-services-header mb-0" data-aos="fade-right">Our services</h2>
       <a href="#" class="view-all">View All</a>
     </div>
-    <p class="ml-auto mb-4 ">
+    <p class="ml-auto mb-4 " data-aos="fade-right">
       Takamul Smart Technology delivers innovative solutions, including software development, IoT, system integration, 
       and consulting, to streamline operations and drive business growth.
     </p>
     <div class="row g-4">
       <!-- Digital Experience -->
-      <div class="col-md-4">
-        <div class="service-card">
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="index-service-card">
           <h5>Digital Experience</h5>
           <p>
             Leverage our experience for your digitalisation initiative. Unparalleled consultancy support for strategy 
-            genesis and buildout, use case analysis, and the development and roll-out of digital products and services.
+            genesis and buildout, use case analysis, and the development and roll-out of digital products and index-services.
           </p>
         </div>
       </div>
       <!-- Digital Insights -->
       <div class="col-md-4">
-        <div class="service-card">
+        <div class="index-service-card" data-aos="fade-up">
           <h5>Digital Insights</h5>
           <p>
             Intelligent insights drive business process improvements. We'll be your guide to data warehousing, data lake, 
@@ -138,7 +140,7 @@
       </div>
       <!-- Industry Revolution 4 -->
       <div class="col-md-4">
-        <div class="service-card">
+        <div class="index-service-card" data-aos="fade-up">
           <h5>Industry Revolution 4</h5>
           <p>
             Intelligent insights drive business process improvements. We'll be your guide to data warehousing, data lake, 
@@ -204,7 +206,14 @@
   </div>
 </footer>
 
-
+<!-- AOS Animation Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1200,
+        once: true
+    });
+</script>
 <!-- Latest Bootstrap JS -->
 <script src="asset/bootstrap/js/bootstrap.min.js" ></script>
 <script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
