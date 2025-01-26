@@ -537,7 +537,74 @@ p{
   margin-top: 15px;
 }
 
+/*************************************************
+*****************Contact-page*********************
+**************************************************/
+.contact-intro-section {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180.09deg, #101023 .08%, #10102391 80.58%);
+  border-radius: 35px;
+  padding: 50px 50px;
+  z-index: 1;
+  width: 90%vh;
+  margin-top: 50px;
+  text-align: left;
+  color: rgb(189, 238, 255);
+  margin-bottom: 20px;
+}
+.contact-intro-section h2{
+font-weight: 600;
+color: #fff;
+}
+.contact-buttons a {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.intro {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: #fff;
+}
 
+.button-container {
+  display: flex;
+  justify-content: left;
+  gap: 1rem;
+  padding-top: 20px;
+}
+
+.custom-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-contact {
+  background-color: #3b82f6;
+  color: #fff;
+}
+
+.btn-contact:hover {
+  background-color: #2563eb;
+}
+
+.btn-whatsapp {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn-whatsapp:hover {
+  background-color:#25D366;
+}
 
   /***********************************************
   *********************footer*********************
