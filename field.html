@@ -1,249 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meero - Field of Expertise</title>
-    
+
     <!-- Latest Bootstrap CSS -->
     <link href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="asset/css/style.css">
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
+
     <!-- AOS Animation Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
+
 <body>
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg ">
-    <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="asset/images/logo.png" alt="Meero Logo" height="40">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <nav class="navbar navbar-expand-lg ssticky-top">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="asset/images/logo.png" alt="Meero Logo" width="150" height="auto"
+              class="d-inline-block align-text-top">
+          </a>
+    
+          <!-- Mobile Toggle Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-                <li class="nav-item"><a class="nav-link active" href="field.html">Field of Expertise</a></li>
-                <li class="nav-item"><a class="nav-link" href="service.html" target="_self">Our Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html" target="_self">Contact</a></li>
+          </button>
+    
+          <!-- Navigation Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item px-2">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="field.html">Field of Expertise</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="service.html">How It Works</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
+          </div>
         </div>
-    </div>
-</nav>
+      </nav>
 
-<!-- Hero Banner -->
-<section class="hero-banner   py-5">
-    <div class="container"  data-aos="fade-right">
-        <h1 class="hero-title text-white" >Field of Expertise</h1>
-        <p class="hero-text">
-            Takamul was founded in October 2012 with the vision of enabling organizations of all kinds to grasp the tremendous business opportunities presented by the digital age.
-        </p>
-    </div>
-</section>
+    <!-- Hero Banner -->
+    <section class="hero-banner   py-5">
+        <div class="container" data-aos="fade-right">
+            <h1 class="hero-title text-white">Field of Expertise</h1>
+            <p class="hero-text">
+                Takamul was founded in October 2012 with the vision of enabling organizations of all kinds to grasp the
+                tremendous business opportunities presented by the digital age.
+            </p>
+        </div>
+    </section>
 
-<!-- Field of Expertise Section -->
-<section class="field-section py-5">
-    <div class="container">
-        <h1 class="text-center mb-5 " data-aos="fade-up">Field of Expertise</h1>
-
-        <!-- Oil & Gas -->
-        <div class="row align-items-center mb-5" data-aos="fade-right">
-            <div class="col-md-6 field-card" >
-                <img src="asset/images/oil.jpg" alt="Oil & Gas" class="img-fluid rounded" >
+    <!-- Field of Expertise Section -->
+    <section class="field-section py-5">
+        <div class="container">
+            <h1 class="text-center mb-5 " data-aos="fade-up">Field of Expertise</h1>
+            <!-- Construction -->
+            <div class="row  align-items-center mb-5" data-aos="fade-left">
+                <div class="col-md-6 order-md-2">
+                    <img src="asset/images/construction.jpg" alt="Construction" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <h3 class="field-title">Construction</h3>
+                    <p>Delivering end-to-end solutions for infrastructure projects, including planning, project
+                        management, and advanced construction technologies. Our focus is on sustainability and
+                        efficiency.</p>
+                    <ul>
+                        <li>Smart building technologies</li>
+                        <li>Project planning and execution</li>
+                        <li>Sustainable construction materials</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-md-6">
-                <h3 class="field-title">Oil & Gas</h3>
-                <p>Providing cutting-edge solutions in exploration, drilling, production, and refining. With our expertise in oilfield services, real-time monitoring, and automation, we help maximize efficiency and minimize downtime.</p>
-                <ul>
-                    <li>Exploration and production technologies</li>
-                    <li>Refining and processing efficiency</li>
-                    <li>Real-time drilling operations</li>
-                </ul>
+            <!-- Manufacturing -->
+            <div class="row align-items-center mb-5" data-aos="fade-right">
+                <div class="col-md-6">
+                    <img src="asset/images/manufacture.jpg" alt="Manufacturing" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="field-title">Manufacturing</h3>
+                    <p>Transforming the manufacturing sector with automation, IoT, and advanced analytics. We provide
+                        tailored solutions for improving operational efficiency and reducing costs.</p>
+                    <ul>
+                        <li>Factory automation systems</li>
+                        <li>Production optimization</li>
+                        <li>Smart supply chain management</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Logistics & Transport -->
+            <div class="row align-items-center mb-5" data-aos="fade-left">
+                <div class="col-md-6 order-md-2">
+                    <img src="asset/images/logistic.jpg" alt="Logistics & Transport" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <h3 class="field-title">Logistics & Transport</h3>
+                    <p>We support the logistics and transport sector with advanced supply chain management systems,
+                        real-time tracking solutions, and efficient transportation networks. Our innovations help
+                        businesses reduce costs and improve delivery times.</p>
+                    <ul>
+                        <li>Supply chain optimization</li>
+                        <li>Real-time fleet management</li>
+                        <li>Route planning and logistics technology</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Facility Management -->
+            <div class="row align-items-center mb-5" data-aos="fade-right">
+                <div class="col-md-6">
+                    <img src="asset/images/facility.jpg" alt="Facility Management" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="field-title">Facility Management</h3>
+                    <p>We provide integrated facility management services that optimize the performance, safety, and
+                        sustainability of buildings. Our approach helps organizations reduce operational costs and
+                        enhance tenant satisfaction.</p>
+                    <ul>
+                        <li>Building maintenance systems</li>
+                        <li>Energy management solutions</li>
+                        <li>Workplace optimization strategies</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Retail -->
+            <div class="row align-items-center mb-5" data-aos="fade-right">
+                <div class="col-md-6">
+                    <img src="asset/images/retail.jpg" alt="Retail" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="field-title">Retail</h3>
+                    <p>Our retail solutions enable businesses to improve customer engagement, optimize inventory
+                        management, and enhance the overall shopping experience. We focus on digital transformation,
+                        data-driven insights, and efficient supply chains.</p>
+                    <ul>
+                        <li>Customer experience enhancement</li>
+                        <li>Inventory and supply chain management</li>
+                        <li>Omnichannel retail solutions</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Hospitality -->
+            <div class="row align-items-center mb-5" data-aos="fade-left">
+                <div class="col-md-6 order-md-2">
+                    <img src="asset/images/Hospitality.jpg" alt="Hospitality" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <h3 class="field-title">Hospitality</h3>
+                    <p>We offer innovative solutions to the hospitality industry, enhancing guest experience,
+                        streamlining operations, and driving sustainability. From smart room technology to
+                        energy-efficient systems, we support businesses in staying ahead of industry trends.</p>
+                    <ul>
+                        <li>Smart room management</li>
+                        <li>Energy-efficient systems</li>
+                        <li>Guest experience enhancement</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Oil & Gas -->
+            <div class="row align-items-center mb-5" data-aos="fade-right">
+                <div class="col-md-6 field-card">
+                    <img src="asset/images/oil.jpg" alt="Oil & Gas" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="field-title">Oil & Gas</h3>
+                    <p>Providing cutting-edge solutions in exploration, drilling, production, and refining. With our
+                        expertise in oilfield services, real-time monitoring, and automation, we help maximize
+                        efficiency and minimize downtime.</p>
+                    <ul>
+                        <li>Exploration and production technologies</li>
+                        <li>Refining and processing efficiency</li>
+                        <li>Real-time drilling operations</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Aviation -->
+            <div class="row align-items-center mb-5" data-aos="fade-left">
+                <div class="col-md-6 order-md-2">
+                    <img src="asset/images/aviation.jpg" alt="Aviation" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <h3 class="field-title">Aviation</h3>
+                    <p>Our solutions in aviation focus on operational excellence, safety, and sustainability. We
+                        help airlines and airports enhance operational efficiency, streamline maintenance processes,
+                        and reduce environmental impact.</p>
+                    <ul>
+                        <li>Aircraft maintenance and monitoring</li>
+                        <li>Passenger experience innovation</li>
+                        <li>Sustainable aviation technologies</li>
+                    </ul>
+                </div>
             </div>
         </div>
+    </section>
 
-        <!-- Construction -->
-        <div class="row  align-items-center mb-5" data-aos="fade-left">
-            <div class="col-md-6 order-md-2">
-                <img src="asset/images/construction.jpg" alt="Construction" class="img-fluid rounded">
+    <section class="container contact-section">
+        <div class="row g-4">
+            <!-- Contact Form -->
+            <div class="col-md-6" data-aos="fade-up">
+                <div class="contact-card">
+                    <h3>Contact Us</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" rows="4"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
             </div>
-            <div class="col-md-6 order-md-1">
-                <h3 class="field-title">Construction</h3>
-                <p>Delivering end-to-end solutions for infrastructure projects, including planning, project management, and advanced construction technologies. Our focus is on sustainability and efficiency.</p>
-                <ul>
-                    <li>Smart building technologies</li>
-                    <li>Project planning and execution</li>
-                    <li>Sustainable construction materials</li>
-                </ul>
+
+            <!-- Map -->
+            <div class="col-md-6" data-aos="fade-up">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094283!2d144.955651815317!3d-37.817313979751555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577eb7c3e6d7ed7!2sVictoria%20State%20Library%20of%20Australia!5e0!3m2!1sen!2sau!4v1615947206532!5m2!1sen!2sau"
+                    allowfullscreen="" loading="lazy">
+                </iframe>
             </div>
         </div>
+    </section>
 
-        <!-- Manufacturing -->
-        <div class="row align-items-center mb-5" data-aos="fade-right">
-            <div class="col-md-6">
-                <img src="asset/images/manufacture.jpg" alt="Manufacturing" class="img-fluid rounded">
-            </div>
-            <div class="col-md-6">
-                <h3 class="field-title">Manufacturing</h3>
-                <p>Transforming the manufacturing sector with automation, IoT, and advanced analytics. We provide tailored solutions for improving operational efficiency and reducing costs.</p>
-                <ul>
-                    <li>Factory automation systems</li>
-                    <li>Production optimization</li>
-                    <li>Smart supply chain management</li>
-                </ul>
-            </div>
-
-<!-- Aviation -->
-<div class="row align-items-center mb-5" data-aos="fade-left">
-    <div class="col-md-6 order-md-2">
-        <img src="asset/images/aviation.jpg" alt="Aviation" class="img-fluid rounded">
-    </div>
-    <div class="col-md-6 order-md-1">
-        <h3 class="field-title">Aviation</h3>
-        <p>Our solutions in aviation focus on operational excellence, safety, and sustainability. We help airlines and airports enhance operational efficiency, streamline maintenance processes, and reduce environmental impact.</p>
-        <ul>
-            <li>Aircraft maintenance and monitoring</li>
-            <li>Passenger experience innovation</li>
-            <li>Sustainable aviation technologies</li>
-        </ul>
-    </div>
-</div>
-
-<!-- Facility Management -->
-<div class="row align-items-center mb-5" data-aos="fade-right">
-    <div class="col-md-6">
-        <img src="asset/images/facility.jpg" alt="Facility Management" class="img-fluid rounded">
-    </div>
-    <div class="col-md-6">
-        <h3 class="field-title">Facility Management</h3>
-        <p>We provide integrated facility management services that optimize the performance, safety, and sustainability of buildings. Our approach helps organizations reduce operational costs and enhance tenant satisfaction.</p>
-        <ul>
-            <li>Building maintenance systems</li>
-            <li>Energy management solutions</li>
-            <li>Workplace optimization strategies</li>
-        </ul>
-    </div>
-</div>
-
-<!-- Logistics & Transport -->
-<div class="row align-items-center mb-5" data-aos="fade-left">
-    <div class="col-md-6 order-md-2">
-        <img src="asset/images/logistic.jpg" alt="Logistics & Transport" class="img-fluid rounded">
-    </div>
-    <div class="col-md-6 order-md-1">
-        <h3 class="field-title">Logistics & Transport</h3>
-        <p>We support the logistics and transport sector with advanced supply chain management systems, real-time tracking solutions, and efficient transportation networks. Our innovations help businesses reduce costs and improve delivery times.</p>
-        <ul>
-            <li>Supply chain optimization</li>
-            <li>Real-time fleet management</li>
-            <li>Route planning and logistics technology</li>
-        </ul>
-    </div>
-</div>
-
-<!-- Retail -->
-<div class="row align-items-center mb-5" data-aos="fade-right">
-    <div class="col-md-6">
-        <img src="asset/images/retail.jpg" alt="Retail" class="img-fluid rounded">
-    </div>
-    <div class="col-md-6">
-        <h3 class="field-title">Retail</h3>
-        <p>Our retail solutions enable businesses to improve customer engagement, optimize inventory management, and enhance the overall shopping experience. We focus on digital transformation, data-driven insights, and efficient supply chains.</p>
-        <ul>
-            <li>Customer experience enhancement</li>
-            <li>Inventory and supply chain management</li>
-            <li>Omnichannel retail solutions</li>
-        </ul>
-    </div>
-</div>
-
-</div>
-<!-- Hospitality -->
-<div class="row align-items-center mb-5" data-aos="fade-left">
-<div class="col-md-6 order-md-2">
-<img src="asset/images/Hospitality.jpg" alt="Hospitality" class="img-fluid rounded">
-</div>
-<div class="col-md-6 order-md-1">
-<h3 class="field-title">Hospitality</h3>
-<p>We offer innovative solutions to the hospitality industry, enhancing guest experience, streamlining operations, and driving sustainability. From smart room technology to energy-efficient systems, we support businesses in staying ahead of industry trends.</p>
-<ul>
-    <li>Smart room management</li>
-    <li>Energy-efficient systems</li>
-    <li>Guest experience enhancement</li>
-</ul>
-</div>
-</div>
-
-    </div>
-</section>
-
-<section class="container contact-section">
-    <div class="row g-4">
-      <!-- Contact Form -->
-      <div class="col-md-6" data-aos="fade-up">
-        <div class="contact-card">
-          <h3>Contact Us</h3>
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Your Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter your name">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Your Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email">
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Your Message</label>
-              <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary w-100">Send Message</button>
-          </form>
+    <!-- Footer -->
+    <footer class=" text-white py-4">
+        <div class="container text-center">
+            <ul class="social-icons list-inline mb-3">
+                <li class="list-inline-item"><a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+                <li class="list-inline-item"><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+            <p>Copyright © 2024 | Meero Overseas Hr Consultancy</p>
         </div>
-      </div>
+    </footer>
 
-      <!-- Map -->
-      <div class="col-md-6" data-aos="fade-up">
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094283!2d144.955651815317!3d-37.817313979751555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577eb7c3e6d7ed7!2sVictoria%20State%20Library%20of%20Australia!5e0!3m2!1sen!2sau!4v1615947206532!5m2!1sen!2sau" 
-          allowfullscreen="" 
-          loading="lazy">
-        </iframe>
-      </div>
-    </div>
-</section>
+    <!-- AOS Animation Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: true
+        });
+    </script>
 
-<!-- Footer -->
-<footer class=" text-white py-4">
-    <div class="container text-center">
-        <ul class="social-icons list-inline mb-3">
-            <li class="list-inline-item"><a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-        <p>Copyright © 2024 | Meero Overseas Hr Consultancy</p>
-    </div>
-</footer>
-
-<!-- AOS Animation Script -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script>
-    AOS.init({
-        duration: 1200,
-        once: true
-    });
-</script>
-
-<!-- Bootstrap JS -->
-<script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

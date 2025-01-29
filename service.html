@@ -1,212 +1,150 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meero - Our service</title>
-    <!-- Latest Bootstrap CSS -->
-    <link href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
-    <!-- Link to external CSS -->
-    <link rel="stylesheet" href="asset/css/style.css">
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meero - Our service</title>
+  <!-- Latest Bootstrap CSS -->
+  <link href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="asset/css/style.css">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
-     <!-- AOS Animation Library -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-  </head>
-  <body>
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark ">
-  <div class="container">
-      <a class="navbar-brand" href="#">
-          <img src="asset/images/logo.png" alt="meero Logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item ">
-              <a class="nav-link"  href="index.html" target="_self" >Home</a>
-          </li>
-          <li class="nav-item active">
-              <a class="nav-link" href="about.html" target="_self" >About </a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="field.html" target="_self" >Field of Expertise</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="service.html" target="_self">Our Services</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="contact.html" target="_self">Contact</a>
-          </li>
-      </ul>
-      </div>
-  </div>
-</nav>
+  <!-- AOS Animation Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
 
-<!-- Hero Banner -->
-<section class="hero-banner mb-5">
-  <div class="container">
-      <h1 class="hero-title"  data-aos="fade-right">Services we offer</h1>
-      <p class="hero-text"  data-aos="fade-right">
-        At Meero, we provide innovative solutions to drive success in visa processing, hiring, and advertising. Our goal is to create impactful strategies that bring clients closer to achieving their objectives efficiently and effectively      </p>
-  </div>
-</section>
-
-<section class="container service_section">
-  
-   <!-- Services Section -->
-   <section class="services">
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg ssticky-top">
     <div class="container">
-      <h2 class="text-center mb-5"  data-aos="fade-up">Services</h2>
-      <p class="text-center"  data-aos="fade-right">Delivering innovative and seamless digital experiences, Meero blends creativity and technology to help businesses connect with their audiences and achieve remarkable results.</p>
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="asset/images/logo.png" alt="Meero Logo" width="150" height="auto"
+          class="d-inline-block align-text-top">
+      </a>
 
-      <div class="row mt-5">
-        <div class="col-md-4">
-          <div class="card service-card " data-aos="fade-right">
-            <img src="asset/images/visa.jpg" class="card-img-top" alt="Visa Processing">
-            <div class="card-body text-center">
-              <h5 class="card-title mb-4">Visa Processing</h5>
-              <p>We provide comprehensive visa processing services to simplify international travel and business operations. Our expertise ensures a smooth and efficient application process for your needs.</p>
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card service-card " data-aos="fade-right">
-            <img src="asset/images/Hiring.jpg" class="card-img-top" alt="Hiring and Sourcing">
-            <div class="card-body text-center">
-              <h5 class="card-title mb-4">Hiring/Sourcing</h5>
-              <p>Our hiring and sourcing solutions connect businesses with top talent. We streamline recruitment processes to help organizations build exceptional teams efficiently.</p>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card service-card" data-aos="fade-left">
-            <img src="asset/images/advertisment.jpg" class="card-img-top" alt="Advertising Content">
-            <div class="card-body text-center">
-              <h5 class="card-title mb-4">Advertising Content</h5>
-              <p>We craft compelling advertising content that captures attention and drives engagement. Let us help you communicate your brand's story effectively to your audience.</p>
-
-            </div>
-          </div>
-        </div>
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="field.html">Field of Expertise</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="service.html">How It Works</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
-      <div class="row mt-5">
-        <div class="col-md-4">
-          <div class="card service-card " data-aos="fade-right">
-            <img src="asset/images/visa.jpg" class="card-img-top" alt="Visa Processing">
-            <div class="card-body text-center">
-              <h5 class="card-title mb-4">Visa Processing</h5>
-              <p>We provide comprehensive visa processing services to simplify international travel and business operations. Our expertise ensures a smooth and efficient application process for your needs.</p>
+    </div>
+  </nav>
 
-            </div>
+  <!-- Hero Banner -->
+  <section class="hero-banner mb-5">
+    <div class="container">
+      <h1 class="hero-title" data-aos="fade-right">How its Works</h1>
+      <p class="hero-text" data-aos="fade-right">
+        At Meero, we provide innovative solutions to drive success in visa processing, hiring, and advertising. Our goal
+        is to create impactful strategies that bring clients closer to achieving their objectives efficiently and
+        effectively </p>
+    </div>
+  </section>
+
+  <section class="container service_section">
+    <!-- Services Section -->
+    <div class="container">
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Training and Practical Test</h3>
+            <p class="timeline-text">Along with comprehensive safety orientation & productivity evaluation, we are
+              fully equipped to train candidates & prepare them with skills recognized by international standards.</p>
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card service-card " data-aos="fade-right">
-            <img src="asset/images/Hiring.jpg" class="card-img-top" alt="Hiring and Sourcing">
-            <div class="card-body text-center">
-              <h5 class="card-title mb-4">Hiring/Sourcing</h5>
-              <p>Our hiring and sourcing solutions connect businesses with top talent. We streamline recruitment processes to help organizations build exceptional teams efficiently.</p>
-
-            </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Conducting Medical Examination</h3>
+            <p class="timeline-text">Based on the results of a medical examination, employers can determine if a
+              candidate is physically and mentally fit to perform the duties of the position.</p>
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card service-card" data-aos="fade-left">
-            <img src="asset/images/advertisment.jpg" class="card-img-top" alt="Advertising Content">
-            <div class="card-body text-center">
-              <h5 class="card-title mb-4">Advertising Content</h5>
-              <p>We craft compelling advertising content that captures attention and drives engagement. Let us help you communicate your brand's story effectively to your audience.</p>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Processing Visa Stamping</h3>
+            <p class="timeline-text">We have developed a proven framework to ensure that visa applications are
+              processed quickly and efficiently, no matter which countries are involved.</p>
+          </div>
+        </div>
 
-            </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Immigration Clearance Paperwork</h3>
+            <p class="timeline-text">Immigration specialists advise candidates on all pre-requisites for submitting
+              the adequate documentation required for immigration clearance and departure.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-</section>
 
- <!--contact -->
-<section class="container contact-section">
-    <div class="row g-4">
-      <!-- Contact Form -->
-      <div class="col-md-6" data-aos="fade-up">
-        <div class="contact-card">
-          <h3>Contact Us</h3>
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Your Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter your name">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Your Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email">
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Your Message</label>
-              <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary w-100">Send Message</button>
-          </form>
+  <footer>
+    <div class="container">
+      <div class="icon_1 text-center" style="padding-top: 26px;">
+        <div class="main-content">
+          <ul class="social-icons">
+            <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+          </ul>
         </div>
       </div>
-
-      <!-- Map -->
-      <div class="col-md-6" data-aos="fade-up">
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094283!2d144.955651815317!3d-37.817313979751555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577eb7c3e6d7ed7!2sVictoria%20State%20Library%20of%20Australia!5e0!3m2!1sen!2sau!4v1615947206532!5m2!1sen!2sau" 
-          allowfullscreen="" 
-          loading="lazy">
-        </iframe>
+      <div class="divider text-center"></div>
+      <div class="text-center">
+        <p>Copyright © 2024 | Meero Overseas Hr Consultancy</p>
       </div>
     </div>
-</section>
+  </footer>
 
-<footer>
-  <div class="container">
-    <div class="icon_1 text-center" style="padding-top: 26px;">
-      <div class="main-content">
-        <ul class="social-icons">
-          <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-          <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-          <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="divider text-center"></div>
-    <div class="text-center">
-      <p>Copyright © 2024 | Meero Overseas Hr Consultancy</p>
-    </div>
-  </div>
-</footer>
-
-<!-- AOS Animation Script -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script>
+  <!-- AOS Animation Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
     AOS.init({
-        duration: 1200,
-        once: true
+      duration: 1200,
+      once: true
     });
-</script>
-<!-- Latest Bootstrap JS -->
-<script src="asset/bootstrap/js/bootstrap.min.js" ></script>
-<script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  </script>
+  <!-- Latest Bootstrap JS -->
+  <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+  <script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </body>
 </body>
+
 </html>

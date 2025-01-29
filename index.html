@@ -1,223 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meero</title>
-    <!-- Latest Bootstrap CSS -->
-    <link href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Link to external CSS -->
-    <link rel="stylesheet" href="asset/css/style.css">
-    <!--font-awesome css-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-      <!-- AOS Animation Library -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meero</title>
+  <!-- Latest Bootstrap CSS -->
+  <link href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="asset/css/style.css">
+  <!--font-awesome css-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <!-- AOS Animation Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
+
 <body>
-
-<!-- Navigation Bar -->
- 
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark">
-  <div class="container">
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg ssticky-top">
+    <div class="container">
+      <!-- Logo -->
       <a class="navbar-brand" href="#">
-          <img src="asset/images/logo.png" alt="meero Logo">
+        <img src="asset/images/logo.png" alt="Meero Logo" width="150" height="auto"
+          class="d-inline-block align-text-top">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
+
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
+
+      <!-- Navigation Links -->
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item ">
-              <a class="nav-link"  href="index.html" target="_self" >Home</a>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item active">
-              <a class="nav-link" href="about.html" target="_self" >About </a>
+          <li class="nav-item px-2">
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
           </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="field.html">Field of Expertise</a>
           </li>
-          <li class="nav-item">
-              <a class="nav-link" href="field.html" target="_self">Field of Expertise</a>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#">Gallery</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="service.html" target="_self">Our services</a>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="service.html">How It Works</a>
           </li>
-          <li class="nav-item">
-              <a class="nav-link" href="contact.html" target="_self">Contact</a>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
-      </ul>
-      </div>
-  </div>
-</nav>
-<!-- Banner Section -->
-<section class="banner-section" >
-    <div class="container text-content" data-aos="fade-right">
-
-                <h1>Every business can benefit from <br><span>digital innovation</span></br></h1>
-                <p>
-                    Takamul is an emerging digital-technology powerhouse in the kingdom of Saudi Arabia. 
-                    We deliver digital transformation <strong>index-services for government, enterprises, and industry.</strong> 
-                    For us, technology is always driven by business needs. <br><br>
-                    This way, <strong>we focus on the result that we deliver the most value.</strong>
-                </p>
-    </div>
-</section>
-<!-- value Section -->
-<section class="container values-section">
-    <h2 class="values-header " data-aos="fade-right">OUR VALUES</h2>
-    <p class="text-center" data-aos="fade-right">
-      Takamul Technology was founded in October 2012 with the vision of helping organizations of all kinds grasp <br>
-      the tremendous business opportunities presented by the digital age.
-    </p>
-    <div class="row text-center mt-4">
-      <!-- Agile -->
-      <div class="col-md-6 col-sm-6" data-aos="fade-right">
-        <div class="value-card">
-          <i class="bi bi-lightning-fill"></i>
-          <h5 class="value-title">Agile</h5>
-          <p>We follow an agile approach to deliver return on investment faster.</p>
-        </div>
-      </div>
-      <!-- Expert -->
-      <div class="col-md-6 col-sm-6" data-aos="fade-left">
-        <div class="value-card">
-          <i class="bi bi-person-check-fill"></i>
-          <h5 class="value-title">Expert</h5>
-          <p>We follow an agile approach to deliver return on investment faster.</p>
-        </div>
-      </div>
-      <!-- Innovation -->
-      <div class="col-md-6 col-sm-6" data-aos="fade-right">
-        <div class="value-card">
-          <i class="bi bi-lightbulb-fill"></i>
-          <h5 class="value-title">Innovation</h5>
-          <p>We're not afraid to push the boundaries of the new digital technologies.</p>
-        </div>
-      </div>
-      <!-- Trusted -->
-      <div class="col-md-6 col-sm-6" data-aos="fade-left">
-        <div class="value-card">
-          <i class="bi bi-shield-check"></i>
-          <h5 class="value-title">Trusted</h5>
-          <p>We're not afraid to push the boundaries of the new digital technologies.</p>
-        </div>
-      </div>
-    </div>
-</section>
-
-<!-- index-services -->
-
-<section class="container index-services-section">
-    <div class="d-flex justify-content-between align-items-center mb-4">
-      <h2 class="index-services-header mb-0" data-aos="fade-right">Our services</h2>
-      <a href="#" class="view-all">View All</a>
-    </div>
-    <p class="ml-auto mb-4 " data-aos="fade-right">
-      Takamul Smart Technology delivers innovative solutions, including software development, IoT, system integration, 
-      and consulting, to streamline operations and drive business growth.
-    </p>
-    <div class="row g-4">
-      <!-- Digital Experience -->
-      <div class="col-md-4" data-aos="fade-up">
-        <div class="index-service-card">
-          <h5>Digital Experience</h5>
-          <p>
-            Leverage our experience for your digitalisation initiative. Unparalleled consultancy support for strategy 
-            genesis and buildout, use case analysis, and the development and roll-out of digital products and index-services.
-          </p>
-        </div>
-      </div>
-      <!-- Digital Insights -->
-      <div class="col-md-4">
-        <div class="index-service-card" data-aos="fade-up">
-          <h5>Digital Insights</h5>
-          <p>
-            Intelligent insights drive business process improvements. We'll be your guide to data warehousing, data lake, 
-            analytics, machine learning, powerful reporting and visual dashboards.
-          </p>
-        </div>
-      </div>
-      <!-- Industry Revolution 4 -->
-      <div class="col-md-4">
-        <div class="index-service-card" data-aos="fade-up">
-          <h5>Industry Revolution 4</h5>
-          <p>
-            Intelligent insights drive business process improvements. We'll be your guide to data warehousing, data lake, 
-            analytics, machine learning, powerful reporting and visual dashboards.
-          </p>
-        </div>
-      </div>
-    </div>
-    
-</section>
-
-<!--- contact -->
-<section class="container contact-section"  data-aos="fade-up">
-    <div class="row g-4">
-      <!-- Contact Form -->
-      <div class="col-md-6">
-        <div class="contact-card">
-          <h3>Contact Us</h3>
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Your Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter your name">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Your Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email">
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Your Message</label>
-              <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary w-100">Send Message</button>
-          </form>
-        </div>
-      </div>
-
-      <!-- Map -->
-      <div class="col-md-6"  data-aos="fade-up">
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094283!2d144.955651815317!3d-37.817313979751555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577eb7c3e6d7ed7!2sVictoria%20State%20Library%20of%20Australia!5e0!3m2!1sen!2sau!4v1615947206532!5m2!1sen!2sau" 
-          allowfullscreen="" 
-          loading="lazy">
-        </iframe>
-      </div>
-    </div>
-</section>
-<footer>
-  <div class="container">
-    <div class="icon_1 text-center" style="padding-top: 26px;">
-      <div class="main-content">
-        <ul class="social-icons">
-          <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-          <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-          <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
         </ul>
       </div>
     </div>
-    <div class="divider text-center"></div>
-    <div class="text-center">
-      <p>Copyright © 2024 | Meero Overseas Hr Consultancy</p>
-    </div>
-  </div>
-</footer>
+  </nav>
+  <!-- Banner Section -->
+  <section class="banner-section py-5t">
+    <div class="container-fluid text-content col-md-7 col-xl-7 col-lg-7 col-xs-7 col-sm-12">
+      <div class="home-content ">
+        <h1 class="main-content-header">Every Business Thrives with <span>Skilled Manpower</span> </h1>
+        <p>With over 25 years of experience in manpower and HR consultancy, we specialize in providing workforce
+          solutions tailored to your business needs. From recruitment and talent acquisition to workforce planning and
+          employee management, we ensure that you get the right professionals to drive success. <br><br>
 
-<!-- AOS Animation Script -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script>
+          Although our firm was officially licensed just one year ago, our deep industry knowledge and expertise
+          guarantee reliable, efficient, and high-quality manpower solutions. We are committed to delivering skilled and
+          qualified professionals to help your business grow and excel.
+          <br>
+          <strong> Let us help you build a stronger workforce for a better future. </strong>
+        </p>
+        <div class="col-12">
+          <button class="button-23" role="button">Contact Us</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-12 col-sm-12 col-lg-5 d-flex justify-content-center justify-content-md-end">
+      <img src="/asset/images/rb_18959.png" class="home-image" alt="..." style="max-width: 80%;">
+    </div>
+  </section>
+  <!-- index-services -->
+
+  <section class="container index-services-section">
+    <div class="row g-4">
+      <!-- Expert Manpower Solutions -->
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="index-service-card">
+          <div class="icon">
+            <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M12 2C9.79 2 8 3.79 8 6s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zM2 20c0-3.31 2.69-6 6-6h8c3.31 0 6 2.69 6 6v2H2v-2z">
+              </path>
+            </svg>
+          </div>
+          <h5>Expert Manpower Solutions</h5>
+          <p>Find the right talent for your business with our specialized recruitment services. We connect you with
+            skilled professionals tailored to your industry needs.</p>
+        </div>
+      </div>
+
+      <!-- Seamless Hiring Process -->
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="index-service-card">
+          <div class="icon">
+            <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 21v-2a4 4 0 0 0-8 0v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M2 21v-2a4 4 0 0 1 3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              <path d="M8 3.13a4 4 0 0 0 0 7.75"></path>
+            </svg>
+          </div>
+          <h5>Seamless Hiring Process</h5>
+          <p>Streamline your recruitment with our efficient hiring solutions. From candidate sourcing to final
+            selection, we ensure a hassle-free experience.</p>
+        </div>
+      </div>
+
+      <!-- Build Your Dream Team -->
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="index-service-card">
+          <div class="icon">
+            <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"></path>
+              <path d="M9 12h6"></path>
+              <path d="M12 9v6"></path>
+            </svg>
+          </div>
+          <h5>Build Your Dream Team</h5>
+          <p>Empower your business with top-tier talent. Our manpower consultancy helps you hire the best professionals
+            to drive success and growth.</p>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <footer>
+    <div class="container">
+      <div class="icon_1 text-center" style="padding-top: 26px;">
+        <div class="main-content">
+          <ul class="social-icons">
+            <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="divider text-center"></div>
+      <div class="text-center">
+        <p>Copyright © 2024 | Meero Overseas Hr Consultancy</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AOS Animation Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
     AOS.init({
-        duration: 1200,
-        once: true
+      duration: 1200,
+      once: true
     });
-</script>
-<!-- Latest Bootstrap JS -->
-<script src="asset/bootstrap/js/bootstrap.min.js" ></script>
-<script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  </script>
+  <!-- Latest Bootstrap JS -->
+  <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+  <script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </body>
 </body>
+
 </html>
