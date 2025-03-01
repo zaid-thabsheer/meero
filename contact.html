@@ -21,9 +21,9 @@
   <nav class="navbar navbar-expand-lg ssticky-top">
     <div class="container">
       <!-- Logo -->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand col" href="#">
         <img src="asset/images/logo.png" alt="Meero Logo" width="150" height="auto"
-          class="d-inline-block align-text-top">
+          class="d-inline-block align-text-top" />
       </a>
 
       <!-- Mobile Toggle Button -->
@@ -45,7 +45,7 @@
             <a class="nav-link" href="field.html">Field of Expertise</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item px-2">
             <a class="nav-link" href="service.html">How It Works</a>
@@ -60,39 +60,35 @@
   <!-- Hero Banner -->
   <section class="hero-banner">
     <div class="container">
-      <h1 class="hero-title " data-aos="fade-right">Contact Us</h1>
-      <p class="hero-text" data-aos="fade-right">
-        Connect Meero. Reach out to us for inquiries, support, or collaboration. Let's shape the future together!
-      </p>
+      <h1 class="hero-title " data-aos="fade-right">Contact Us</h1> 
       <div class="button-container">
         <button class="btn custom-button btn-contact">Contact Us</button>
-        <button class="btn custom-button btn-whatsapp">WhatsApp</button>
+        <button class="btn custom-button" style="background-color: #5ed389;">WhatsApp</button>
       </div>
     </div>
   </section>
 
-  <section class="container contact-intro-section">
-    <h2 data-aos="fade-right">Intro</h2>
-    <p data-aos="fade-right">
-      At Meero, we value open communication and collaboration. Whether you have a question about our services, need
-      assistance, or want to explore how we can work together, our team is here to help. Fill out the contact form, send
-      us an email, or give us a call, and we’ll get back to you promptly. Let’s connect and take the first step toward
-      achieving your goals!
-    </p>
-  </section>
-
-  <section class="container contact-intro-section">
-    <h2 data-aos="fade-right">Schedule A free expert session
-      with Meero Team</h2>
-    <p data-aos="fade-right">
-      We're headquartered in Al-Khobar City. The Saudi Vision 2030 identifies Al-Khobar City as one of the best cities
-      to live in its development ambitions. Close to the energy sector, 400km from Riyadh and the key commercial hub of
-      the Kingdom's eastern province, we enjoy a strategic location with great promise. </p>
-  </section>
+  <section class="contact-section">
+    <div class="container contact-intro-section">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-12 col-lg-12">
+                <h2 class="text-center mb-4">Intro</h2>
+                <p class="lead">
+                    At Meero, we value open communication and collaboration. Whether you have a question about our services, need assistance, or want to explore how we can work together, our team is here to help. Fill out the contact form, send us an email, or give us a call, and we'll get back to you promptly. Let's connect and take the first step toward achieving your goals!
+                </p>
+                <h2 class="mt-4">Schedule A Free Expert Session with Meero Team</h2>
+                <p class="lead">
+                    We're headquartered in Al-Khobar City. The Saudi Vision 2030 identifies Al-Khobar City as one of the best cities to live in its development ambitions. Close to the energy sector, 400km from Riyadh and the key commercial hub of the Kingdom's eastern province, we enjoy a strategic location with great promise.
+                </p> 
+            </div>
+        </div>
+    </div>
+</section>
+  
 
   <!--contact -->
   <section class="container contact-section">
-    <div class="row g-4">
+    <div class="row g-4 m-2">
       <!-- Contact Form -->
       <div class="col-md-6" data-aos="fade-up">
         <div class="contact-card">
@@ -110,7 +106,7 @@
               <label for="message" class="form-label">Your Message</label>
               <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary w-100" style="padding: 10px;">Send Message</button>
+            <button class="button-23 col-sm-6">Send Message</button> 
           </form>
         </div>
       </div>
