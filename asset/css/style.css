@@ -1515,7 +1515,7 @@ a {
 }
 .timeline-text {
   
-  font-size: 0.75rem;
+  font-size: 17px !important;
   
 }
 }
